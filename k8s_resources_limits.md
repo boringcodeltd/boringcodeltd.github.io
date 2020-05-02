@@ -1,7 +1,7 @@
 # Kubernetes resources limits
 
 **Q: Which resources can I limit?**
-- CPU and Memory
+- CPU, Memory and Linux Huge Pages [[source](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-types)]
 
 **Q: How can I limit them?**
 
