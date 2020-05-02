@@ -37,6 +37,7 @@ Q: What's the difference between requests and limits?
 - K8s passes them to docker (or other container engine)
 
 Q: How can one check what values were passed to docker? Is there docker run command logged somewhere?
+- `kubectl get resourcequota your_pod --output=yaml` [source](
 - Kubernetes uses Docker Api via docker.sock, not `docker run` command. [Api doc](https://docs.docker.com/engine/api/v1.24/)
 
 Q: How docker implements resources limits?
