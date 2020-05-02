@@ -20,6 +20,7 @@ spec:
 ```
 
 **Q: Is the limit configured per pod or per container?**
+- Per container.
 
 **Q: What happens if the limit is exceeded?**
 
