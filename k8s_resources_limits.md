@@ -4,6 +4,20 @@
 - CPU, Memory and Linux Huge Pages [[source](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-types)]
 
 **Q: How can I limit them?**
+```
+...
+spec:
+  containers:
+  - name: db
+    ...
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+```
 
 **Q: Is the limit configured per pod or per container?**
 
