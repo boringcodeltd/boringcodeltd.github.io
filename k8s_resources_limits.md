@@ -1,4 +1,4 @@
-# Kubernetes resources limits
+# Kubernetes resources limits - Rabbit Hole
 
 **Q: Which resources can I limit?**
 - CPU, Memory and Linux Huge Pages [[source](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-types)]
@@ -29,7 +29,7 @@ Q: What's the difference between requests and limits?
 - cpu limit - the container is throttled, will not get more CPU time
 - memory limit - the container will be killed
 
-Q: How Kubernetes implements resources limits?
+**Q: How Kubernetes implements resources limits?**
 - K8s passes them to docker (or other container engine)
 
 Q: How can one check what values were passed to docker? Is there docker run command logged somewhere?
