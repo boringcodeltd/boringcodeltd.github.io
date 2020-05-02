@@ -44,7 +44,7 @@ Q: How docker implements resources limits?
 - by modifing cgroups
 
 Q: What's cgroup?
-- Control Group - Linux kernel feature.
+- Control Group - Linux kernel feature. [man](http://man7.org/linux/man-pages/man7/cgroups.7.html)
 
 Q: How cgroup implements resources limits?
 - Cpu limit - it configures CFS (Completely Fair Scheduler)
