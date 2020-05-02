@@ -1,4 +1,4 @@
-# Kubernetes resources limits - Rabbit Hole
+# Kubernetes resources limits - Down the Rabbit Hole
 
 **Q: Which resources can I limit?**
 - CPU
