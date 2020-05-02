@@ -39,6 +39,10 @@ Q: What's the difference between requests and limits?
 Q: How can one check what values were passed to docker? Is there docker run command logged somewhere?
 
 Q: How docker implements resources limits?
+- docker modifies cgroup.
+
+Q: What's cgroup?
+- Control Group - Linux kernel feature.
 
 Q: What are the consequences of not specifying CPU and Memory limits at all?
 
