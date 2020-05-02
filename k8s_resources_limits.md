@@ -41,7 +41,7 @@ Q: How can one check what values were passed to docker? Is there docker run comm
 - Kubernetes uses Docker Api via docker.sock, not `docker run` command. [Api doc](https://docs.docker.com/engine/api/v1.24/)
 
 Q: How docker implements resources limits?
-- docker modifies cgroup.
+- by modifing cgroups
 
 Q: What's cgroup?
 - Control Group - Linux kernel feature.
